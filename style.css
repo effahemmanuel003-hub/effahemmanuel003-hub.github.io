@@ -1,0 +1,55 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav { background-color: #222;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+.hero {
+    padding: 100px 20px;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4; /* Smooth, modern light grey background */
+}
+
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.contact-button {
+    display: inline-block;
+    background-color: #25D366; /* WhatsApp Green */
+    color: white;
+    text-decoration: none;
+    padding: 16px 32px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #128C7E; /* Darker Green on Hover */
+    transform: scale(1.05);
+}
